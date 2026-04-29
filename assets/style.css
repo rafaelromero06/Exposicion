@@ -1,0 +1,18 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0A0A0F; }
+@keyframes fadeSlide {
+    from { opacity:0; transform:translateY(18px); }
+    to   { opacity:1; transform:translateY(0); }
+}
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+@keyframes countUp { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
+.nav-btn {
+    background:#1A1A26; border:1px solid #2D2D42;
+    color:#E2E8F0; border-radius:8px; padding:10px 22px;
+    cursor:pointer; font-family:'DM Sans',sans-serif; font-size:14px;
+    font-weight:500; transition:all .2s ease;
+}
+.nav-btn:hover { background:#6EE7F722; border-color:#6EE7F766; color:#6EE7F7; }
+::-webkit-scrollbar { width:4px; }
+::-webkit-scrollbar-track { background:#0A0A0F; }
+::-webkit-scrollbar-thumb { background:#2D2D42; border-radius:2px; }
