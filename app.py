@@ -254,7 +254,7 @@ def sl_portada():
                 "background":f"radial-gradient(ellipse 80% 60% at 50% 40%, {A}14, transparent 70%)",
                 "pointerEvents":"none"}),
             html.Div([
-                pill("Exposición — 40 minutos",A3),
+                pill("Exposición — ",A3),
                 html.Br(),html.Br(),
                 html.H1("Big Data",style={"fontSize":"clamp(60px,9vw,96px)","fontFamily":FD,
                     "fontWeight":"800","color":T,"letterSpacing":"-2px","lineHeight":"1","margin":"0"}),
@@ -319,7 +319,7 @@ def sl_agenda():
                  "borderRadius":"8px","border":f"1px solid {BD}","marginBottom":"6px",
                  "background":CARD})
     return sw("agenda",[
-        H("Agenda de la Exposición"),S("20 temas · 40 minutos — aproximadamente 2 minutos por tema"),
+        H("Agenda de la Exposición"),S("20 temas "),
         html.Div([
             html.Div([row(*r) for r in rows1]),
             html.Div([row(*r) for r in rows2]),
