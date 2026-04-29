@@ -1101,7 +1101,7 @@ def sl_cierre():
                 ],style={"marginTop":"20px","padding":"16px 20px","background":f"{A}10",
                           "borderRadius":"10px","border":f"1px solid {A}30","textAlign":"center"}),
                 html.Div([
-                    stat("40 min","de exposición completados",A),
+                    stat("Exposición finalizada",A),
                     stat("21","temas cubiertos",A2),
                     stat("∞","posibilidades en este campo",A3),
                 ],style={"display":"flex","gap":"6px","marginTop":"24px","justifyContent":"center"})
